@@ -1,0 +1,19 @@
+:root {
+  --color-blue: #4E9DFE;
+  --color-green: #46D48C;
+  --color-red: #FC636B;
+  --color-yellow: #FFD900;
+  --color-black: #07020D;
+  --color-grey-light: #07020D30;
+  --color-white: #FFF;
+
+  --theme-color-1: var(--color-grey-light);
+  --theme-color-2: var(--color-black);
+
+  --body-background-color: var(--theme-color-1);
+
+  --font-stack: "soehne", -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+
+  --transition-duration: .25s;
+  --transition-ease: cubic-bezier(0.31, 0.1, 0.05, 1.08);
+}
