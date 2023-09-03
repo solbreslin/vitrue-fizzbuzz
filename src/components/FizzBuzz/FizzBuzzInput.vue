@@ -87,11 +87,13 @@ fieldset {
   gap: 0.5rem;
   margin: 0;
   padding: 0;
+  position: relative;
 }
 
 input {
   background: hsla(0, 100%, 100%, 0.3);
   border: 3px solid hsla(0, 0%, 0%, 0%);
+  border-radius: 4px;
   font: inherit;
   font-size: 2rem;
   font-weight: 500;

@@ -32,10 +32,11 @@ watch(
 
 <style lang="scss" scoped>
 div {
+  align-items: center;
   display: grid;
   grid-row: 2;
+  justify-items: center;
   place-content: center;
-  position: relative;
 }
 
 span {
@@ -43,16 +44,14 @@ span {
   aspect-ratio: 1/1;
   background: var(--theme-color-2);
   border-radius: 999px;
+  grid-column: 1;
+  grid-row: 1;
   height: 50vmin;
-  left: 50%;
   pointer-events: none;
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%) scale(var(--scale));
+  transform: scale(var(--scale));
   transition:
     background-color var(--transition-duration) var(--transition-ease),
     transform var(--transition-duration) var(--transition-ease);
-  z-index: 0;
 
   &.loading {
     --scale: 0.5;
@@ -62,6 +61,8 @@ span {
 h1 {
   color: white;
   font-size: clamp(2rem, 20vw, 12rem);
+  grid-column: 1;
+  grid-row: 1;
   position: relative;
   mix-blend-mode: difference;
   overflow: hidden;
