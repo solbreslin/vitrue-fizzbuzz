@@ -71,10 +71,4 @@ h1 {
   transition: transform var(--transition-duration) var(--transition-ease);
   word-break: break-word;
 }
-
-p {
-  color: white;
-  font-size: clamp(2rem, 20vw, 12rem);
-  position: relative;
-}
 </style>
