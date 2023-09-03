@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 import { store } from '@/stores/store.ts';
 import { ref, watch } from 'vue';
-import { randomNumberBetweenTwoNumbers } from '@/utils/array.ts';
+import { randomNumberBetweenTwoNumbers } from '@/utils/math.ts';
 import { resetTheme, setRandomTheme } from '@/utils/theme.ts';
 import { isFizzBuzz } from '@/utils/fizzBuzz.ts';
 
