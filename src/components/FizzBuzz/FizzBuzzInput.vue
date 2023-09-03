@@ -1,5 +1,3 @@
-<script lang="ts"></script>
-
 <script lang="ts" setup>
 import { onBeforeUnmount, onMounted, ref, watch } from 'vue';
 

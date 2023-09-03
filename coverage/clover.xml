@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1693737231307" clover="3.2.0">
-  <project timestamp="1693737231307" name="All files">
-    <metrics statements="307" coveredstatements="306" conditionals="36" coveredconditionals="36" methods="12" coveredmethods="12" elements="355" coveredelements="354" complexity="0" loc="307" ncloc="307" packages="3" files="6" classes="6"/>
+<coverage generated="1693752556025" clover="3.2.0">
+  <project timestamp="1693752556025" name="All files">
+    <metrics statements="300" coveredstatements="299" conditionals="35" coveredconditionals="35" methods="11" coveredmethods="11" elements="346" coveredelements="345" complexity="0" loc="300" ncloc="300" packages="3" files="6" classes="6"/>
     <package name="components.FizzBuzz">
-      <metrics statements="224" coveredstatements="223" conditionals="15" coveredconditionals="15" methods="2" coveredmethods="2"/>
+      <metrics statements="228" coveredstatements="227" conditionals="16" coveredconditionals="16" methods="2" coveredmethods="2"/>
       <file name="FizzBuzzInput.vue" path="/Users/husband/dev/vitrue/fizzbuzz/src/components/FizzBuzz/FizzBuzzInput.vue">
-        <metrics statements="146" coveredstatements="145" conditionals="10" coveredconditionals="10" methods="2" coveredmethods="2"/>
+        <metrics statements="148" coveredstatements="147" conditionals="10" coveredconditionals="10" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -152,9 +152,11 @@
         <line num="144" count="1" type="stmt"/>
         <line num="145" count="1" type="stmt"/>
         <line num="146" count="1" type="stmt"/>
+        <line num="147" count="1" type="stmt"/>
+        <line num="148" count="1" type="stmt"/>
       </file>
       <file name="FizzBuzzOutput.vue" path="/Users/husband/dev/vitrue/fizzbuzz/src/components/FizzBuzz/FizzBuzzOutput.vue">
-        <metrics statements="78" coveredstatements="78" conditionals="5" coveredconditionals="5" methods="0" coveredmethods="0"/>
+        <metrics statements="80" coveredstatements="80" conditionals="6" coveredconditionals="6" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -164,26 +166,26 @@
         <line num="7" count="1" type="stmt"/>
         <line num="8" count="1" type="stmt"/>
         <line num="9" count="1" type="stmt"/>
-        <line num="10" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="10" count="1" type="stmt"/>
         <line num="11" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="12" count="24" type="cond" truecount="1" falsecount="0"/>
-        <line num="13" count="12" type="stmt"/>
+        <line num="12" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="13" count="36" type="cond" truecount="1" falsecount="0"/>
         <line num="14" count="12" type="stmt"/>
         <line num="15" count="12" type="stmt"/>
-        <line num="16" count="12" type="stmt"/>
-        <line num="17" count="12" type="stmt"/>
-        <line num="18" count="12" type="stmt"/>
+        <line num="16" count="36" type="cond" truecount="1" falsecount="0"/>
+        <line num="17" count="24" type="stmt"/>
+        <line num="18" count="24" type="stmt"/>
         <line num="19" count="24" type="stmt"/>
-        <line num="20" count="1" type="stmt"/>
+        <line num="20" count="36" type="stmt"/>
         <line num="21" count="1" type="stmt"/>
         <line num="22" count="1" type="stmt"/>
         <line num="23" count="1" type="stmt"/>
         <line num="24" count="1" type="stmt"/>
         <line num="25" count="1" type="stmt"/>
         <line num="26" count="1" type="stmt"/>
-        <line num="27" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="28" count="69" type="cond" truecount="1" falsecount="0"/>
-        <line num="29" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="29" count="45" type="cond" truecount="1" falsecount="0"/>
         <line num="30" count="1" type="stmt"/>
         <line num="31" count="1" type="stmt"/>
         <line num="32" count="1" type="stmt"/>
@@ -233,56 +235,41 @@
         <line num="76" count="1" type="stmt"/>
         <line num="77" count="1" type="stmt"/>
         <line num="78" count="1" type="stmt"/>
+        <line num="79" count="1" type="stmt"/>
+        <line num="80" count="1" type="stmt"/>
       </file>
     </package>
     <package name="stores">
-      <metrics statements="33" coveredstatements="33" conditionals="8" coveredconditionals="8" methods="5" coveredmethods="5"/>
+      <metrics statements="16" coveredstatements="16" conditionals="3" coveredconditionals="3" methods="3" coveredmethods="3"/>
       <file name="store.ts" path="/Users/husband/dev/vitrue/fizzbuzz/src/stores/store.ts">
-        <metrics statements="33" coveredstatements="33" conditionals="8" coveredconditionals="8" methods="5" coveredmethods="5"/>
+        <metrics statements="16" coveredstatements="16" conditionals="3" coveredconditionals="3" methods="3" coveredmethods="3"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
         <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="9" count="14" type="stmt"/>
-        <line num="10" count="14" type="stmt"/>
-        <line num="11" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="12" count="11" type="stmt"/>
-        <line num="13" count="11" type="stmt"/>
-        <line num="14" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="6" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="7" count="14" type="stmt"/>
+        <line num="8" count="14" type="stmt"/>
+        <line num="9" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="10" count="11" type="stmt"/>
+        <line num="11" count="11" type="stmt"/>
+        <line num="12" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="13" count="19" type="stmt"/>
+        <line num="14" count="19" type="stmt"/>
         <line num="15" count="19" type="stmt"/>
-        <line num="16" count="19" type="stmt"/>
-        <line num="17" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="18" count="19" type="stmt"/>
-        <line num="19" count="19" type="stmt"/>
-        <line num="20" count="19" type="stmt"/>
-        <line num="21" count="1" type="stmt"/>
-        <line num="22" count="1" type="stmt"/>
-        <line num="23" count="1" type="stmt"/>
-        <line num="24" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="25" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="26" count="19" type="stmt"/>
-        <line num="27" count="19" type="cond" truecount="1" falsecount="0"/>
-        <line num="28" count="16" type="cond" truecount="1" falsecount="0"/>
-        <line num="29" count="12" type="stmt"/>
-        <line num="30" count="19" type="stmt"/>
-        <line num="31" count="19" type="stmt"/>
-        <line num="32" count="1" type="stmt"/>
-        <line num="33" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
       </file>
     </package>
     <package name="utils">
-      <metrics statements="50" coveredstatements="50" conditionals="13" coveredconditionals="13" methods="5" coveredmethods="5"/>
+      <metrics statements="56" coveredstatements="56" conditionals="16" coveredconditionals="16" methods="6" coveredmethods="6"/>
       <file name="array.ts" path="/Users/husband/dev/vitrue/fizzbuzz/src/utils/array.ts">
         <metrics statements="2" coveredstatements="2" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="2" count="12" type="stmt"/>
       </file>
       <file name="fizzBuzz.ts" path="/Users/husband/dev/vitrue/fizzbuzz/src/utils/fizzBuzz.ts">
-        <metrics statements="21" coveredstatements="21" conditionals="10" coveredconditionals="10" methods="2" coveredmethods="2"/>
+        <metrics statements="27" coveredstatements="27" conditionals="13" coveredconditionals="13" methods="3" coveredmethods="3"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -304,6 +291,12 @@
         <line num="19" count="2" type="stmt"/>
         <line num="20" count="2" type="stmt"/>
         <line num="21" count="15" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="24" count="36" type="stmt"/>
+        <line num="25" count="36" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="36" type="stmt"/>
+        <line num="27" count="36" type="stmt"/>
       </file>
       <file name="theme.ts" path="/Users/husband/dev/vitrue/fizzbuzz/src/utils/theme.ts">
         <metrics statements="27" coveredstatements="27" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
@@ -324,16 +317,16 @@
         <line num="15" count="12" type="stmt"/>
         <line num="16" count="12" type="stmt"/>
         <line num="17" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="18" count="12" type="stmt"/>
-        <line num="19" count="12" type="stmt"/>
-        <line num="20" count="12" type="stmt"/>
-        <line num="21" count="12" type="stmt"/>
-        <line num="22" count="12" type="stmt"/>
-        <line num="23" count="12" type="stmt"/>
-        <line num="24" count="12" type="stmt"/>
-        <line num="25" count="12" type="stmt"/>
-        <line num="26" count="12" type="stmt"/>
-        <line num="27" count="12" type="stmt"/>
+        <line num="18" count="24" type="stmt"/>
+        <line num="19" count="24" type="stmt"/>
+        <line num="20" count="24" type="stmt"/>
+        <line num="21" count="24" type="stmt"/>
+        <line num="22" count="24" type="stmt"/>
+        <line num="23" count="24" type="stmt"/>
+        <line num="24" count="24" type="stmt"/>
+        <line num="25" count="24" type="stmt"/>
+        <line num="26" count="24" type="stmt"/>
+        <line num="27" count="24" type="stmt"/>
       </file>
     </package>
   </project>
