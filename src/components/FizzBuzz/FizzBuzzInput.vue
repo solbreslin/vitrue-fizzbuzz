@@ -12,14 +12,14 @@ import { fizzBuzz } from '@/utils/fizzBuzz.ts';
 // Adding a delay to make it appear the system is busy, for better UX
 const ARTIFICIAL_UI_DELAY = 500;
 
-const inputEl = ref(null);
+const inputEl = ref<HTMLInputElement>();
 const userInput = ref<number | string>('');
 
 // In Chrome and FF, the value of an empty input OR an input with invalid characters is an empty string.
 // Check if the user has interacted with the input before adding visual error validation.
 const userHasInteracted = ref(false);
 
-const validateUserInput = (userInput): userInput is number => {
+const validateUserInput = (userInput: string | number): userInput is number => {
   return typeof userInput === 'number';
 };
 
@@ -45,7 +45,7 @@ watch(userInput, async (value) => {
 });
 
 onMounted(() => {
-  inputEl.value.focus();
+  inputEl.value?.focus();
 });
 
 onBeforeUnmount(() => {
