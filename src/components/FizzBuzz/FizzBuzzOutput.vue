@@ -3,13 +3,14 @@ import { store } from '@/stores/store.ts';
 import { ref, watch } from 'vue';
 import { randomNumberBetweenTwoNumbers } from '@/utils/array.ts';
 import { resetTheme, setRandomTheme } from '@/utils/theme.ts';
+import { isFizzBuzz } from '@/utils/fizzBuzz.ts';
 
 const textRotation = ref(0);
 
 watch(
-  () => store.fizzBuzz,
-  async (isFizzBuzz) => {
-    if (isFizzBuzz) {
+  () => store.output,
+  (output) => {
+    if (isFizzBuzz(output)) {
       setRandomTheme();
       textRotation.value = randomNumberBetweenTwoNumbers(-40, 40);
     } else {

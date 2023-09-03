@@ -19,3 +19,9 @@ export const fizzBuzz = (n: number) => {
     return n.toString();
   }
 };
+
+export const isFizzBuzz = (text: string) => {
+  return (
+    text === Message.FIZZ || text === Message.BUZZ || text === Message.FIZZBUZZ
+  );
+};
