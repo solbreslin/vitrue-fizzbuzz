@@ -10,7 +10,7 @@ import FizzBuzz from '@/views/FizzBuzz.vue';
 
 <style scoped lang="scss">
 main {
-  height: calc(100vh - 2rem);
+  height: calc(100dvh - 2rem);
   padding: 1rem;
 }
 </style>
